@@ -14,7 +14,7 @@ public class Dog extends Animal{
 
     @Override
     protected String whatDoesTheAnimalSay() {
-        return "auf auf auf";
+        return "auf auf auf auf";
     }
 
     public void runForTail(){
