@@ -6,6 +6,7 @@ public class Fox extends Animal{
         this.pawsCount = 4;
         this.name = AnimalType.Fox;
         this.color = "orange";
+        this.averageWeight = 23;
     }
 
     @Override

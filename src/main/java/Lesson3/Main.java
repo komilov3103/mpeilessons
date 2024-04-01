@@ -21,6 +21,11 @@ public class Main {
                 System.out.println(animal.whatDoesTheAnimalSay() + "some other stuff");
           }
         }
+        for (int i = 0; i < animals.length; i++) {
+            if (animals[i].getAverageWeight() != 0){
+                System.out.println("Average weight of "+animals[i].getName()+" is: "+ animals[i].getAverageWeight());
+            }
+        }
 
         if (fox instanceof Animal){
             System.out.println("Of course its animal");
