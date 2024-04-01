@@ -18,7 +18,7 @@ public class Main {
 
         for (Animal animal : animals) {
             if (animal != null){
-                System.out.println(animal.whatDoesTheAnimalSay());
+                System.out.println(animal.whatDoesTheAnimalSay() + "some other stuff");
           }
         }
 
