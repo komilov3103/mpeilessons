@@ -5,6 +5,7 @@ public class Dog extends Animal{
         this.name = AnimalType.Dog;
         this.color = "black";
         this.pawsCount = 4;
+        this.averageWeight = 15;
     }
 
     @Override
